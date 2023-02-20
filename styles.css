@@ -1,0 +1,28 @@
+body {font-family: 'Raleway', sans-serif;}
+
+
+
+header
+{display:flex;
+justify-content: space-between;
+padding-top: 75px;
+font-family:'Raleway' sans-serif;
+font-size: 16px;
+color:  black;}
+
+.liens{color: black;}
+.liens:hover {color: #0065FC;}
+.ligne-dessus {
+    color: #0065FC;
+}
+
+h1,h2,h3 {
+font-family: raleway 700;
+font-size: 22px;
+color: black;}
+
+p {
+font-family: raleway 400;
+font-size: 16px;}
+
+
