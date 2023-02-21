@@ -11,24 +11,68 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700;900&display=swap" rel="stylesheet">
     <!-- lien vers les icones -->
     <script src="https://kit.fontawesome.com/819d33abb7.js" crossorigin="anonymous"></script>
-
 </head>
 <body>
     <header>
-        <img src="ImagesBoki/logo/Booki.png">
-        <nav class="liens"></nav>
+        <img class="logo" src="ImagesBoki/logo/Booki.png">
+        <nav class="liens">
             <div class="trait-dessus"> </div>
-            <a href="#Hébergements" class="liens">Hébergement</a>
 
+            <a href="#Hébergements" class="liens">Hébergement</a>
             <a href="#Activités"class="liens">Activités</a>
             </div>
             </nav>
         </header>
 
-    <h1 class="titre"> Trouvez votre hébergement pour des vacances de rêves</h1>
-    <p>En plein centre ville ou en plein nature</p>
-    <h2 cass="titre">Hébergement à Marseille</h2>
-    <h3 class ="titre">Activités à Marseille</h3>
+           <div> <h1 class="titre"> Trouvez votre hébergement pour des vacances de rêves</h1>
+            <p>En plein centre ville ou en plein nature</p> </div>
+            
+                <!-- Création de la barre de recherche-->
+            <form class="recherche"> 
+                <i class="fa-solid fa-location-dot" id="icones"> 
+                <input type="text" placeholder="Marseille, France" id="Recherche">
+                <input type="button" value="recherche" id="button">
+            </form>
+
+                <!--creation des filtre --> 
+               
+               <div class="filtres">
+ <ul>
+              <li><p id="filtres-titres"> Filtres</p> </li>
+              
+              <li>
+                <span class="icones-filtres">
+                    <i class="fa-solid fa-money-bill"></i>
+                </span>
+                 <p>Economique</p> 
+             </li>
+
+            <li>  
+                <span class="icones-filtres">
+                <i class="fa-sharp fa-solid fa-child"></i>
+                </span> 
+                <p>Familial</p> 
+            </li>
+
+            <li>
+                <span class="icones-fitres">
+                <i class="fa-solid fa-heart"></i> 
+                </span> 
+                <p>Romantique</p> 
+            </li>
+                 
+            <li>   
+                <span class="icones-filtres">
+                <i class="fa-solid fa-dog"></i>
+                </span> 
+                <p>Animaux autorisés</p> 
+            </li>
+</ul>
+            </div>
+            <div> 
+                <i class="fa-thin fa-circle-info"></i>
+            <p>Plus de 500 logements sont disponibles dans cette ville</p> </div>
+    
    </body>
 
 </html>

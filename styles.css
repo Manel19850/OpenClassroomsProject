@@ -1,28 +1,45 @@
 body {font-family: 'Raleway', sans-serif;}
 
-
+header,body 
+{margin: 50px;
+padding: 0px;}
 
 header
 {display:flex;
-justify-content: space-between;
-padding-top: 75px;
+justify-content:space-between;
+padding-top: 25px;
 font-family:'Raleway' sans-serif;
 font-size: 16px;
 color:  black;}
 
+.logo{ margin-left: 0%;
+    justify-content: right;}
+
+a{justify-content: space-between;
+padding: 60px}
+
+.trait-dessus 
+{ position: absolute;
+width: 162px;
+height: 2px;
+left: 800px;
+top: 0px;
+background-color: #0065FC;}
+
 .liens{color: black;}
 .liens:hover {color: #0065FC;}
-.ligne-dessus {
-    color: #0065FC;
-}
 
-h1,h2,h3 {
+.titre {
 font-family: raleway 700;
 font-size: 22px;
 color: black;}
 
-p {
-font-family: raleway 400;
+p {font-family:raleway 400;
 font-size: 16px;}
+
+/* Section recherches et filtre /*
+
+.
+
 
 
