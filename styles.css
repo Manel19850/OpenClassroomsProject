@@ -88,3 +88,18 @@ h2{font-family: 'Raleway';
     line-height: 21px;
     color: #000000;}
 
+.titre-filtre{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    margin: 30px;
+    align-items: normal;
+    justify-content: space-between;
+    }
+
+.titre-filtre i{
+padding-left: 50px;
+color: #0065FC;}
+
