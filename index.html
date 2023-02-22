@@ -7,72 +7,49 @@
    <link rel="stylesheet" type="text/css" href="styles.css">
    <!-- lien vers la police raleway-->
    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700;900&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700;900&display=swap" rel="stylesheet">
     <!-- lien vers les icones -->
     <script src="https://kit.fontawesome.com/819d33abb7.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <img class="logo" src="ImagesBoki/logo/Booki.png">
+        <!-- Insertion du logo +redimension et insertion des éléments nav-->
+        <img src="ImagesBoki/logo/Booki.png" alt="logo booki" width="61,09px" height="19px">
+
         <nav class="liens">
             <div class="trait-dessus"> </div>
-
-            <a href="#Hébergements" class="liens">Hébergement</a>
-            <a href="#Activités"class="liens">Activités</a>
+                <a href="#Hébergements" class="liens">Hébergement</a>
+                <a href="#Activités"class="liens">Activités</a>
             </div>
-            </nav>
-        </header>
+        </nav>
+    </header>
 
-           <div> <h1 class="titre"> Trouvez votre hébergement pour des vacances de rêves</h1>
-            <p>En plein centre ville ou en plein nature</p> </div>
+     <div> <h1 class="titre"> Trouvez votre hébergement pour des vacances de rêves</h1>
+        <p>En plein centre ville ou en plein nature</p> </div>
             
                 <!-- Création de la barre de recherche-->
-            <form class="recherche"> 
-                <i class="fa-solid fa-location-dot" id="icones"> 
-                <input type="text" placeholder="Marseille, France" id="Recherche">
-                <input type="button" value="recherche" id="button">
-            </form>
+            <div> 
+                <form class="recherche">
+                <i class="fa-solid fa-location-dot" id="icones"></i> 
+                <input type="text" value=" Marseille, France" id="recherche">               
+                <input type="button" value="recherche" id="button"></form></div>
 
                 <!--creation des filtre --> 
-               
-               <div class="filtres">
- <ul>
-              <li><p id="filtres-titres"> Filtres</p> </li>
-              
-              <li>
-                <span class="icones-filtres">
-                    <i class="fa-solid fa-money-bill"></i>
-                </span>
-                 <p>Economique</p> 
-             </li>
+<div>
+            <div class="titre-filtre"></div>
+            <h2>Filtres</h2>
+            <i class="fa-solid fa-money-bill"></i><span>Economique</span>
+            <i class="fa-solid fa-child"></i><span>Familial</span>
+            <i class="fa-solid fa-heart"></i><span>Romantique</span>
+            <i class="fa-solid fa-dog"></i><span>Animal autorisés</span>
+        </div>
 
-            <li>  
-                <span class="icones-filtres">
-                <i class="fa-sharp fa-solid fa-child"></i>
-                </span> 
-                <p>Familial</p> 
-            </li>
+      <div> <i class="fa-sharp fa-solid fa-info"></i><p>Plus de 500 logements disponibles dans cette ville</p> </div>
+</div>
+             
+        </div>
 
-            <li>
-                <span class="icones-fitres">
-                <i class="fa-solid fa-heart"></i> 
-                </span> 
-                <p>Romantique</p> 
-            </li>
-                 
-            <li>   
-                <span class="icones-filtres">
-                <i class="fa-solid fa-dog"></i>
-                </span> 
-                <p>Animaux autorisés</p> 
-            </li>
-</ul>
-            </div>
-            <div> 
-                <i class="fa-thin fa-circle-info"></i>
-            <p>Plus de 500 logements sont disponibles dans cette ville</p> </div>
-    
    </body>
 
 </html>
