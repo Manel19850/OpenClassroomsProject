@@ -30,7 +30,7 @@ padding: 60px}
 {position: absolute;
 width: 162px;
 height: 2px;
-left: 900px;
+left: 1200px;
 top: 0px;
 background-color: #0065FC;}
 
@@ -92,9 +92,9 @@ margin-top: 30px;}
 font-style: normal;
 font-weight: 700;
 display: flex;
-flex-wrap: wrap;
-margin-top: -40px;
-justify-content:space-around;}
+flex-direction: row ;
+margin-top: -45px;
+justify-content: space-between;}
 
 .titre-filtre i
 {color: #0065FC;}
@@ -120,17 +120,17 @@ justify-content: space-between;}
 
 .container1
 {background-color: #F2F2F2;
-width:1050px;
-height: 550px;
+width: 930px;
+height: 626px;
 border-radius: 20px;
 display: flex;
 flex-wrap: wrap;
 margin-right:20px;
-padding-right: 10px;}
+padding-right:-20px;}
 
 .images
-{width: 235px;
-height: 100px;
+{width: 260px;
+height: 130px;
 padding-top: 5px;
 padding-left: 5px;
 padding-right: 5px;
@@ -138,8 +138,8 @@ border-radius: 20px;}
 
 .cards
 {background-color: white;
-width: 246px;
-height: 180px;
+width: 270px;
+height: 200px;
 border-radius: 20px;
 margin-top: 40px;
 margin-left: 20px;}
@@ -161,20 +161,22 @@ font-size: 14px;}
 
 .container2
 {background-color: #F2F2F2;
-height:550px ;
-width: 400px;
-border-radius:20px;}
+height:626px ;
+width: 460px;
+border-radius:20px;
+margin-right: 50px;
+padding-left: 20px;}
 
 .images2
 {width: 137px;
-height: 125px;
+height: 140px;
 border-bottom-left-radius: 20px;
 border-top-left-radius: 20px;}
 
 .cards2
 {background-color: white;
-width: 300px;
-height: 125px;
+width: 380px;
+height: 140px;
 border-radius: 20px;
 margin: 30px;
 margin-left: 30px;
@@ -185,13 +187,12 @@ justify-content: space-between;}
 
 
 .images3
-{width: 300px;
-height: 400px;
+{width: 320px;
+height: 380px;
 border-top-left-radius: 20px;
 border-top-right-radius: 20px ;
-margin-left: -50px;
-
-}
+margin-left: -40px;
+margin-top: -20px;}
 
 .titre-activité
 {font-family: 'raleway', sans-serif;
@@ -200,14 +201,31 @@ font-weight: 700;
 text-align: left;}
 
 .cards3
-{
+{background-color:white;
+width:320px;
+height:444.51px;
+border-radius: 20px;
+box-shadow: 6px 6px 0px #F0F2F6;
 display:flex;
-flex-direction: row;
-justify-content: space-between}
+flex-direction: row;}
 
 /*Footer*/
 .container4
-{width: 1339px;
+{width: 1400px;
 height: 225px;
 background-color: #F2F2F2;
-margin-top: 80px;}
+margin-top: 80px;
+display: flex;
+flex-wrap: wrap;}
+
+.titre-foot
+{font-family: "raleway", sans-serif;
+font-size: 18px;
+font-weight: 700;}
+
+.soustitre-foot
+{font-family: "raleway", sans-serif;
+font-size: 16px;
+font-weight: 400;}
+
+
