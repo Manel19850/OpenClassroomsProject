@@ -137,12 +137,13 @@ border-radius: 20px;}
 .cards
 {background-color: white;
 width: 270px;
-height: 200px;
+height: 205px;
 border-radius: 20px;
 margin-top: 40px;
 margin-left: 20px;}
 
-
+.texte
+{margin: 5px 20px}
 
 .sous-titre2
 {font-family: "Raleway", sans-serif;
@@ -155,7 +156,8 @@ line-height: 19px;}
 font-size: 14px;}
 
 .etoiles
-{color: #0065FC;}
+{color: #0065FC;
+display: flex;}
 
 /*Populaires*/
 
@@ -183,6 +185,14 @@ margin: 30px;
 margin-left: 30px;
 justify-content: space-between;}
 
+.texte2
+{margin: 20px 20px;}
+
+.etoiles2
+{color: #0065FC;
+display: flex;
+}
+
 
 /*Activités Marseille*/
 
@@ -200,7 +210,9 @@ margin-top: -20px;}
 {font-family: 'raleway', sans-serif;
 font-size: 16px;
 font-weight: 700;
-text-align: left;}
+display: flex;
+justify-content: left;
+margin-top: 20px;}
 
 .cards3
 {background-color:white;
@@ -209,16 +221,28 @@ height:444.51px;
 border-radius: 20px;
 box-shadow: 6px 6px 0px #F0F2F6;
 display:flex;
-flex-direction: row;}
+}
 
 /*Footer*/
+
+
+
 .container4
 {width: 1400px;
 height: 225px;
-background-color: #F2F2F2;
-margin-top: 80px;
+background-color:#F2F2F2;
 display: flex;
-flex-wrap: wrap;}
+justify-content: left;
+align-items: flex-start;
+margin:40px;
+margin-left: 10px;
+list-style-type: none;}
+
+.bloc-foot
+{margin:45px 70px;
+} 
+
+.ul {list-style-type: none;}
 
 .titre-foot
 {font-family: "raleway", sans-serif;
@@ -229,5 +253,6 @@ font-weight: 700;}
 {font-family: "raleway", sans-serif;
 font-size: 16px;
 font-weight: 400;}
+
 
 
