@@ -51,7 +51,7 @@ border-radius: 15px 0px 0px 15px;}
 {background: #FFFFFF;
 border: 1px solid #F2F2F2;
 border-top: 15px ;
-padding-left: 10px;
+padding-left: 50px;
 padding-right: 50px;
 font-family: 'Raleway';
 font-style: normal;
@@ -65,55 +65,57 @@ color: #000000;}
 {display: flex;
 flex-direction: row;
 align-items: center;
-padding: 10px 10px;
+padding: 10px 10px 10px 10px;
 gap: 10px;
 font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 18px;
-
 text-align: center;
 color: #FFFFFF;
 background: #0065FC;
 border: 1px solid #0065FC;
-border-radius: 0px 15px 15px 0px;}
+border-radius: 0px 15px 15px 0px;
+padding-top:5px;
+padding-bottom:5px}
 
-/* Elements des filtres */
+.titre-filtre
+{font-family: "raleway",sans serif;
+font-size: 18px;
+margin-top: 30px;
+}
 
-.filtres
-{font-family:'raleway',sans-serif;
-font-size:18px;
-color: #000000;
-margin-top: 30px;}
+.titre-filtre ul
+{display: flex;
+align-items: center ;
+padding: 0;}
 
-
-.bloc
-{font-family: 'Raleway', sans-serif;
-font-style: normal;
-font-weight: 700;
-display: flex;
-flex-direction: row ;
-margin-top: -45px;
-justify-content: space-between;}
-
-.titre-filtre i
-{color: #0065FC;}
-
-.bloc li
-{font-family: 'raleway',sans-serif;
+.titre-filtre li
+{display: flex;
+align-items: center;
+list-style-type: none;
+font-family: 'raleway',sans-serif;
 font-size: 17px;
 color: #000000;
 border-radius: 50px;
 border:2px solid #D9D9D9;
-list-style-type: none;
-padding: 10px 10px 10px 10px;
+margin-right: 60px;
+margin-left: 80px;
+margin-top: -50px;
+padding-left: 20px;
+padding-right: 20px; 
 }
+
+.icone-filtre{color: #0065FC;
+padding-right: 10px;
+padding-left: 10px;}
+
 
 /*Hébergements à Marseille*/
 
 .hebergement-populaire
 {display: flex;
-flex: wrap;
+flex-direction: row;
 justify-content: space-between;}
 
 .container1
@@ -122,7 +124,7 @@ width: 930px;
 height: 626px;
 border-radius: 20px;
 display: flex;
-flex-wrap: wrap;
+flex-wrap:wrap;
 margin-right:20px;
 padding-right:-20px;}
 
@@ -139,8 +141,8 @@ border-radius: 20px;}
 width: 270px;
 height: 205px;
 border-radius: 20px;
-margin-top: 40px;
-margin-left: 20px;}
+margin-top: 70px;
+margin-left: 30px;}
 
 .texte
 {margin: 5px 20px}
@@ -178,7 +180,7 @@ border-top-left-radius: 20px;}
 .cards2
 {display: flex;
 background-color: white;
-width: 380px;
+width: 345px;
 height: 140px;
 border-radius: 20px;
 margin: 30px;
@@ -190,13 +192,11 @@ justify-content: space-between;}
 
 .etoiles2
 {color: #0065FC;
-display: flex;
+margin-top: 40px;
 }
 
 
 /*Activités Marseille*/
-
-
 
 .images3
 {width: 320px;
@@ -225,8 +225,6 @@ display:flex;
 
 /*Footer*/
 
-
-
 .container4
 {width: 1400px;
 height: 225px;
@@ -242,7 +240,8 @@ list-style-type: none;}
 {margin:45px 70px;
 } 
 
-.ul {list-style-type: none;}
+.bloc-foot li
+{list-style-type: none;}
 
 .titre-foot
 {font-family: "raleway", sans-serif;
