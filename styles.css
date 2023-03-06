@@ -8,6 +8,10 @@ header
 justify-content:space-between;
 padding-top: 25px;}
 
+#logo
+{width:61px;
+height:19px}
+
 .titre,h3 
 {font-family: "raleway",sans-serif;
 font-size: 22px;
@@ -23,7 +27,8 @@ a
 {font-family: "raleway", sans-serif;
 font-size: 10;   
 justify-content: space-between;
-text-decoration: none;}
+text-decoration: none;
+color: #000000;}
 
 /* Elements du header */
 
@@ -277,8 +282,98 @@ font-weight: 700;}
 font-size: 16px;
 font-weight: 400;}
 
+/* Medias Queries Mobile*/
+
+@media screen and (max-width: 480px)
+
+{
+
+body,header
+{ margin:0px;
+padding: 0px;}
 
 
-    
+header
+{ max-width: 100%;
+display: flex;
+flex-flow: column nowrap;
+justify-content: center;
+align-items: center;}
 
-    
+
+.liens
+{max-width:100% ;
+margin: 30px;}
+
+
+.trait-dessus
+{position: absolute;
+    width: 187px;
+    height: 3px;
+    left: 0px;
+    top: 90px;}
+
+.titre
+{max-width: 100%;
+    margin-top: 30px;
+    margin-left:40px;
+text-align:start;
+}
+
+p
+{max-width: 100%;
+
+text-align: center;}
+
+.recherche
+{padding-left: 30px;
+padding-right: 30px;}
+
+#button{ width: 50px;}
+
+#recherche{width: 50%;}
+
+.titre-filtre
+{margin: 30px;}
+
+
+.titre-filtre ul
+{display:flex;
+flex-direction: column ;
+margin: 30px;}
+
+
+.hebergement-populaire
+{flex-flow: column-reverse nowrap;}
+
+.container2
+{max-width: 100%;
+flex-flow: column;
+justify-items: center;
+width: 600px;
+border-radius: 0%;}
+
+.container1
+{background: white;
+flex-flow: column nowrap;
+margin: 20px;}
+
+.cards
+{border-radius: 20px;
+box-shadow: 6px 6px 0px #F0F2F6;
+width:333px;
+height:220px;}
+
+.images
+{width:333px;}
+
+.cards3
+{max-width: 100%;
+flex-flow:  column nowrap;
+justify-content: space-between;
+margin: 60px;}
+
+.images3
+{width:320px;
+height:150px;
+}
