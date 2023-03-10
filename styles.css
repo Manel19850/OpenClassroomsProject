@@ -132,24 +132,22 @@ padding-right: 20px;}
 
 /*Hébergements à Marseille*/
 
-
 .hebergement-populaire
-{display: flex;
-justify-content: space-between;}
+{display: flex;}
 
+.container-flex1
 
 .container1
 {background-color: #F2F2F2;
-width: 930px;
-height: 630px;
+width: 980px;
+height: 700px;
 border-radius: 20px;
 margin-right: 20px;
-padding-top: 50px;
-display:flex;
+display: flex;
 flex-wrap: wrap;}
 
 .images
-{width: 260px;
+{width: 270px;
 height: 122px;
 padding-top:5px;
 padding-left: 5px;
@@ -158,10 +156,10 @@ border-radius: 20px;}
 
 .cards
 {background-color: white;
-width: 270px;
+width: 280px;
 height: 230px;
-border-radius: 20px;
-margin-top: 40px;
+border-radius:20px;
+margin-top:80px;
 margin-left: 30px;}
 
 .texte
@@ -193,10 +191,9 @@ padding-top: 20px;}
 
 .container2
 {background-color: #F2F2F2;
-height: 660px;
-width: 430px;
+height: 674px;
+width: 400px;
 border-radius:20px;
-margin-right: 90px;
 padding-top: 20px;
 padding-left: 20px;}
 
@@ -216,7 +213,7 @@ background-color: white;
 width: 345px;
 height: 150px;
 border-radius: 20px;
-margin: 30px;
+margin: 40px;
 margin-left: 30px;
 justify-content: space-between;}
 
@@ -257,14 +254,14 @@ width:320px;
 height:444px;
 border-radius: 20px;
 box-shadow: 6px 6px 0px #F0F2F6;
-margin-right: 35px;}
+margin-right: 50px;}
 
 .titre-activité{margin:20px}
 
 /*Footer*/
 
 .container4
-{width: 1400px;
+{width: 1410px;
 height: 225px;
 background-color:#F2F2F2;
 display: flex;
@@ -426,7 +423,7 @@ height: 220px;
 margin: 30px 30px 30px 30px;}
 
 .titre-activités
-{padding-top:210%;
+{
 margin-left: 30px;}
 
 .images3
@@ -443,108 +440,5 @@ height: 580px;
 display: flex;
 flex-flow: column nowrap;
 margin:0px;}
-
-}
-/* Medias Queries Tablette*/
-
-@media screen and (max-width: 768px)
-
-{
-.hebergement-populaire 
-{display: flex;
-flex-wrap: wrap;}
-
-.container1
-{display: flex;
-flex-wrap:wrap;
-width:890px;
-height: 370px;}
-
-.cards
-{margin-top:10px;
-width:186px;
-height: 130px;}
-
-.images
-{width:176px;
-height:64px}
-
-.sous-titre2
-{font-family: "Raleway", sans-serif;
-font-weight: 700;
-font-size: 12px;
-margin-bottom: 5px;}
-
-.sous-titre3
-{font-family:'raleway',sans-serif;
-font-size: 8px;}
-
-.etoiles{font-size:8px ;
-margin-top:10px;
-margin-left: 0px;}
-
-/* Populaire*/
-
-.container2
-{margin-top: 30px;
-height: 200px;
-width: 660px;
-display: flex;
-flex-direction: row;}
-
-.cards2
-{width:186px;
-height:120px;
-padding-top: 5px;
-padding-bottom: 5px;
-padding-left: 5px;}
-
-.images2
-{width: 70px;
-height: 120px;}
-
-.etoiles2
-{margin-top:15px;
-font-size:10px}
-
-/*Activités*/
-
-.images3
-{width: 140px;
-height: 150px;}
-
-.cards3
-{background-color: white;
-width:140px;
-height: 200px;}
-
-.titre-activité
-{font-size: 10px;
-margin-top: 5px;}
-
-
-/*footer*/
-
-.container4
-{width: 650px;
-height: 190px;}
-
-.titre-foot
-{font-size:14px;}
-
-.soustitre-foot
-{font-size: 13px;
-margin-top: 5px;}
-
-.bloc-foot
-{margin:10px 15px;
-padding-top: 30px;} 
-
-
-
-
-
-
-
 
 }
