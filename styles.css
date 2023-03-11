@@ -135,16 +135,20 @@ padding-right: 20px;}
 .hebergement-populaire
 {display: flex;}
 
-.container-flex1
-
 .container1
 {background-color: #F2F2F2;
 width: 980px;
-height: 700px;
+height: 800px;
 border-radius: 20px;
 margin-right: 20px;
 display: flex;
 flex-wrap: wrap;}
+
+.container1 h2
+{ position: absolute;
+margin-left: 40px;
+margin-top: 40px;}
+
 
 .images
 {width: 270px;
@@ -159,7 +163,7 @@ border-radius: 20px;}
 width: 280px;
 height: 230px;
 border-radius:20px;
-margin-top:80px;
+margin-top:100px;
 margin-left: 30px;}
 
 .texte
@@ -191,11 +195,13 @@ padding-top: 20px;}
 
 .container2
 {background-color: #F2F2F2;
-height: 674px;
+height: 780px;
 width: 400px;
 border-radius:20px;
 padding-top: 20px;
-padding-left: 20px;}
+margin-left: 30px;}
+
+.container2 h3{margin-left: 30px;}
 
 .fa-arrow-up-right-dots {color: #0065FC;
 float: right;
@@ -213,7 +219,7 @@ background-color: white;
 width: 345px;
 height: 150px;
 border-radius: 20px;
-margin: 40px;
+margin: 60px;
 margin-left: 30px;
 justify-content: space-between;}
 
@@ -294,7 +300,7 @@ font-weight: 400;}
 {
 
 body,header
-{ margin:0px;
+{margin:0px;
 padding: 0px;}
 
 header
@@ -363,6 +369,8 @@ padding:5px 5px 5px 5px ;
 font-family: "raleway", sans serif;
 font-weight: 700;}
 
+.titre-filtre p{margin: 0px;}
+
 /*section populaires*/
 
 .hebergement-populaire 
@@ -374,16 +382,17 @@ h3
 .container2
 {border-radius:0%;
 width: 500px;
-height: 630px;}
+height: 680px;
+margin-left: -5px;}
 
 .cards2
 {margin: 30px;
-width: 400px;
-margin-left: 10px;}
+width: 425px;
+height: 170px;}
 
 .images2 { padding-left: 5px;
 padding-top: 5px;
-height: 145px}
+height: 160px}
 
 .texte2{padding-right: 70px;}
 
@@ -394,18 +403,22 @@ height: 145px}
 display: flex;
 flex-wrap: wrap;
 width: 100%;   
-margin-right:40px;
-margin-right: 10px;}
+margin-left: 20px;
+padding-top: 60px}
+
+.container1 h2
+{margin-top: -30px;
+margin-left:15px}
 
 .cards
 {border-radius: 20px;
-box-shadow: 6px 6px 0px #F0F2F6;
-width:380px;
-height:220px;}
+box-shadow: 6px 6px 6px 6px#F0F2F6;
+width: 390px;
+height:220px;
+margin:20px;}
 
 .images
-{width:365px;
-margin-left: 10px;}
+{width:380px;}
 
 .etoiles{margin-top:15px;}
 
@@ -415,28 +428,38 @@ margin-left: 10px;}
 
 .container3
 {display: flex;
-flex-direction: column;}
+flex-direction: column;
+margin-left:20px;}
 
 .cards3
-{width: 380px;
+{width: 390px;
 height: 220px;
-margin: 30px 30px 30px 30px;}
+margin: 20px;}
 
 .titre-activités
-{
-margin-left: 30px;}
+{margin-left: 30px;
+margin-bottom: 0px;
+margin-top:170%;}
 
 .images3
-{width:385px;
-height:150px ;}
+{width: 380px;
+height:150px;
+margin-left:-30px;}
+
+.titre-activité 
+{margin-left: -10px;}
 
 /*footer*/
 
 footer{margin-top: 10%;}
 
+.bloc-foot
+{margin: 10px;
+margin-top: 40px;}
+
 .container4
 {width: 500px;
-height: 580px;
+height: 560px;
 display: flex;
 flex-flow: column nowrap;
 margin:0px;}
