@@ -18,6 +18,9 @@ font-size: 22px;
 font-weight: 700;
 color: black;}
 
+h1 
+{margin-top: 40px;}
+
 p
 {font-family: "raleway", sans-serif; 
 font-size: 16px;
@@ -36,7 +39,7 @@ color: #000000;}
 {position: absolute;
 width: 162px;
 height: 2px;
-left: 1200px;
+left: 1220px;
 top: 0px;
 background-color: #0065FC;}
 
@@ -94,8 +97,13 @@ padding-bottom:5px}
 .titre-filtre
 {font-family: "raleway",sans serif;
 font-size: 18px;
-margin-top: 30px;
-font-weight:700;}
+margin-top: -20px;
+font-weight:700;
+margin-left: -40px;}
+
+ul li:nth-child(1){border: none;}
+
+ul li:nth-child(1):hover{background-color: white;}
 
 
 .titre-filtre ul
@@ -114,7 +122,7 @@ border-radius: 50px;
 border:2px solid #D9D9D9;
 padding-left: 10px;
 padding-right: 20px; 
-margin: 40px;}
+margin: 30px;}
 
 .titre-filtre li:hover{background-color: #DEEBFF;}
 
@@ -122,9 +130,12 @@ margin: 40px;}
 padding-right: 10px;
 padding-left: 10px;}
 
-.filtre
-{margin-left:-5px;}
-
+.infos
+{font-family: "raleway", sans-serif; 
+font-size: 16px;
+color: black;
+margin-bottom: 30px;
+margin-top: 15px;}
 
 .fa-info
 {color: #0065FC;
@@ -154,6 +165,7 @@ margin-top: 40px;}
 .images
 {width: 270px;
 height: 122px;
+object-fit:cover;
 padding-top:5px;
 padding-left: 5px;
 padding-right: 5px;
@@ -228,9 +240,11 @@ justify-content: space-between;}
 {margin:20px 20px 0;
 text-align: left;}
 
+
 .etoiles2
 {color: #0065FC;
 margin-top: 40px;}
+
 
 
 /*Activités Marseille*/
@@ -358,20 +372,27 @@ align-content: center;}
 font-weight: 700;
 font-size: 18px;}
 
+.titre-filtre h1
+{margin-left: -10px;}
+
+ul li:nth-child(1){margin-right: 40%;}
+
 .titre-filtre ul
 {display: flex;
-flex-flow:row wrap;}
+flex-flow:row wrap;
+margin-left: -10px;}
 
 .titre-filtre li
 {width: 40%;
 height: 50px;
 margin: 10px 10px 10px 10px;
-padding:5px 5px 5px 5px ;
-font-family: "raleway", sans serif;
-font-weight: 700;}
+padding:5px 5px 5px 5px;}
 
-.titre-filtre p{margin: 0px;}
+.titre-filtre p
+{margin: 0px;
+text-align: center;}
 
+.fa-sharp{margin-left: 20px;}
 /*section populaires*/
 
 .hebergement-populaire 
@@ -389,7 +410,8 @@ margin-left: -5px;}
 .cards2
 {margin: 30px;
 width: 425px;
-height: 170px;}
+height: 170px;
+margin: 10px;}
 
 .images2 { padding-left: 5px;
 padding-top: 5px;
@@ -413,10 +435,10 @@ margin-left:15px}
 
 .cards
 {border-radius: 20px;
-box-shadow: 6px 6px 6px 6px#F0F2F6;
+box-shadow: 4px 4px 4px 4px#F0F2F6;
 width: 390px;
 height:220px;
-margin:20px;}
+margin:10px;}
 
 .images
 {width:380px;}
@@ -435,12 +457,12 @@ margin-left:20px;}
 .cards3
 {width: 390px;
 height: 220px;
-margin: 20px;}
+margin: 10px;}
 
 .titre-activités
 {margin-left: 30px;
-margin-bottom: 0px;
-margin-top:170%;}
+margin-bottom: 20px;
+margin-top:140%;}
 
 .images3
 {width: 380px;
@@ -486,24 +508,28 @@ padding-left: 5px;}
 
 h1 {margin-top:40px}
 
+
 .titre-filtre li 
-{margin: 10px;
+{margin:10px;
 font-size: 10px;
-padding-right: 5px;
-padding-left: 5px;
+padding-right:10px;
+padding-left:5px;
 padding-top: 0px;
 padding-bottom: 0px;}
 
-.titre-filtre ul
-{margin:20px;}
+ul li:nth-child(1){margin-top: -10px;}
 
-.filtre 
-{margin-left: -20px;}
+.titre-filtre ul
+{margin-left:20px;
+margin-top: 40px;}
+
+.filtre h1
+{font-size:18px;}
 
 .infos
 {margin-bottom: 30px;}
 
-.ic
+.icone-filtre {font-size: 12px;}
 
 .icone-filtre
 {font-size: 12px;
@@ -532,28 +558,34 @@ margin-top: -20px;}
 
 .cards
 {margin-top:90px;
-width:186px;
+width:185px;
 height:130px;
 margin: 10px;
 margin-left: 25px;}
 
 .images
 {width:176px;
-height:64px}
+height:64px;
+object-fit:cover;
+border-bottom-left-radius: 0px;
+border-bottom-right-radius: 0px;}
 
 .sous-titre2
 {font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 12px;
-margin-bottom: 5px;}
+margin-bottom: 5px;
+margin-left: -10px;}
 
 .sous-titre3
 {font-family:'raleway',sans-serif;
-font-size: 8px;}
+font-size: 8px;
+margin-left: -10px;}
 
-.etoiles{font-size:8px ;
+.etoiles
+{font-size:8px ;
 margin-top:10px;
-margin-left: 0px;}
+margin-left: -10px;}
 
 /* Populaire*/
 
@@ -563,11 +595,18 @@ height: 200px;
 width: 685px;
 margin-left:0px;}
 
+.texte2
+{margin-top: 10px;
+margin-left: 20px;}
+
+.etoiles2
+{margin-left:-10px;}
+
 .container-flex2
 {display: flex;
 flex-direction: row;}
 
-H3 
+h3 
 {margin-bottom: 10px;}
 
 .cards2
@@ -576,14 +615,13 @@ height:90px;
 margin: 10px;
 padding-top: 5px;
 padding-bottom: 5px;
-padding-left: 5px;
-border-bottom-left-radius:10px;
-border-top-left-radius:10px;}
+padding-left: 5px;}
 
 .images2
 {width: 70px;
 height: 90px;
-border-radius: 20px;}
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;}
 
 .etoiles2
 {margin-top:15px;
@@ -597,8 +635,9 @@ font-size:10px}
 .images3
 {width: 140px;
 height: 145px;
-padding-left: 15px;
-padding-top: 5px;}
+padding-left:15px;
+padding-top: 5px;
+border-top-left-radius: 30px;}
 
 .cards3
 {background-color: white;
