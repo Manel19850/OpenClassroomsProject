@@ -131,8 +131,6 @@ margin: 25px;}
 padding-right: 10px;
 padding-left: 10px;}
 
-
-
 .infos
 {font-family: "raleway", sans-serif; 
 font-size: 16px;
@@ -190,7 +188,8 @@ width: 280px;
 height: 230px;
 border-radius:20px;
 margin-top:100px;
-margin-left: 30px;}
+margin-left: 30px;
+box-shadow: 6px 6px 10px #D7DEEA}
 
 .texte
 {margin: 5px 20px;}
@@ -208,6 +207,7 @@ font-size: 14px;}
 .etoiles
 {color: #0065FC;
 display: flex;
+position: absolute;
 margin-top: 25px;}
 
 .afficher 
@@ -247,18 +247,17 @@ height: 150px;
 border-radius: 20px;
 margin:40px;
 margin-left: 30px;
-justify-content: space-between;}
+justify-content: space-between;
+box-shadow: 6px 6px 10px #D7DEEA}
 
 .texte2
-{margin:20px 20px 0;
+{margin:20px 20px;
 text-align: left;}
 
 
 .etoiles2
 {color: #0065FC;
-margin-top: 40px;}
-
-
+margin-top: 45px;}
 
 /*Activités Marseille*/
 
@@ -287,7 +286,7 @@ flex-direction: row;}
 width:320px;
 height:444px;
 border-radius: 20px;
-box-shadow: 6px 6px 0px #F0F2F6;
+box-shadow: 6px 6px 10px #F0F2F6;
 margin-right: 50px;}
 
 .titre-activité{margin:20px}
@@ -340,11 +339,15 @@ align-items: center;
 margin-top: 30px;}
 
 .liens
-{margin: 30px;}
+{margin: 30px;
+margin-left: 40px;}
+
+#activités
+{margin-left: 20px;}
 
 .trait-dessus
 {position: absolute;
-width: 187px;
+width: 230px;
 height:3px;
 left: 0px;
 top: 120px;}
@@ -406,6 +409,7 @@ padding:5px 5px 5px 5px;}
 text-align: center;}
 
 .fa-sharp{margin-left: 20px;}
+
 /*section populaires*/
 
 .hebergement-populaire 
@@ -418,13 +422,15 @@ h3
 {border-radius:0%;
 width: 500px;
 height: 680px;
-margin-left: -5px;}
+margin-left: -5px;
+}
 
 .cards2
-{margin: 30px;
-width: 425px;
+{width: 425px;
 height: 170px;
-margin: 10px;}
+margin: 20px;
+margin-left: 30px;
+}
 
 .images2 { padding-left: 5px;
 padding-top: 5px;
@@ -448,7 +454,7 @@ margin-left:15px}
 
 .cards
 {border-radius: 20px;
-box-shadow: 4px 4px 4px 4px#F0F2F6;
+box-shadow: 4px 4px 10px#F0F2F6;
 width: 390px;
 height:220px;
 margin:10px;}
@@ -470,17 +476,19 @@ margin-left:20px;}
 .cards3
 {width: 390px;
 height: 220px;
-margin: 10px;}
+margin: 10px;
+box-shadow: 4px 4px 10px#F0F2F6;}
 
 .titre-activités
 {margin-left: 30px;
 margin-bottom: 20px;
-margin-top:150%;}
+margin-top:170%;}
 
 .images3
 {width: 380px;
 height:150px;
-margin-left:-30px;}
+margin-left:-30px;
+}
 
 .titre-activité 
 {margin-left: -10px;}
