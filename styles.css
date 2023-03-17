@@ -1,9 +1,5 @@
-
 body
-{padding-left: 55px;}
-
-.container-site
-{max-width: 1440px;}
+{padding: 20px;}
 
 header
 {display:flex;
@@ -41,11 +37,10 @@ color: #000000;}
 {position: absolute;
 border:solid transparent;
 width:170px;
-left: 1145px;
+left: 900px;
 top: 0px;}
 
-.trait-dessus:hover
-{color: #0065FC;}
+.trait-dessus:hover {border-color: #0065FC;}
 
 
 .liens
@@ -164,17 +159,16 @@ width: 5px;}
 
 .container1
 {background-color: #F2F2F2;
-width: 980px;
-height: 650px;
+width: 990px;
+height: 626px;
 border-radius: 20px;
 margin-right: 20px;
 display: flex;
-flex-wrap: wrap;
-padding: 10px;}
+flex-wrap: wrap;}
 
 .container1 h2
-{ position: absolute;
-margin-left: 40px;
+{position: absolute;
+margin-left: 30px;
 margin-top: 30px;}
 
 .container1 .cards:nth-child(5)
@@ -187,8 +181,8 @@ margin-top: 30px;}
 {margin-top:20px}
 
 .images
-{width: 270px;
-height: 122px;
+{width: 215px;
+height: 124px;
 object-fit:cover;
 padding-top:5px;
 padding-left: 5px;
@@ -198,23 +192,23 @@ border-top-right-radius: 20px;}
 
 .cards
 {background-color: white;
-width: 280px;
-height: 210px;
+width: 225px;
+height: 200px;
 border-radius:20px;
 margin-top:100px;
-margin-left: 30px;
+margin-left: 20px;
 box-shadow: 6px 6px 10px #D7DEEA}
 
 .container1 h3
 {font-family: "Raleway", sans-serif;
 font-weight: 700;
-font-size: 16px;
-margin-top:5px;
+font-size: 14px;
+margin-top:-2px;
 margin-left: 10px;}
 
 .container1 p
 {font-family:'raleway',sans-serif;
-font-size: 14px;
+font-size: 12px;
 margin-top: -10px;
 margin-left: 10px;}
 
@@ -234,11 +228,9 @@ padding-top: 20px;}
 
 .container2
 {background-color: #F2F2F2;
-height: 650px;
-width: 400px;
-border-radius:20px;
-padding-top: 20px;
-margin-left: 30px;}
+height: 630px;
+width: 450px;
+border-radius:20px;}
 
 .fa-chart-line {color: #0065FC;
 float: right;
@@ -256,34 +248,33 @@ padding-left: 5px;}
 {display: flex;
 position: relative;
 background-color: white;
-width: 345px;
+width: 340px;
 height: 150px;
+margin: 30px;
 border-radius: 20px;
-margin:40px;
-margin-left: 30px;
 justify-content: space-between;
 box-shadow: 6px 6px 10px #D7DEEA}
 
 .container2 h4
-{margin-left: 20px;}
+{margin-left: 35px;}
 
 .container2 h3
 {font-family: "Raleway", sans-serif;
 font-weight: 700;
-font-size: 16px;
+font-size: 14px;
 margin-top:5px;
 margin-left: 10px;
 display: flex;
 position: absolute;
-top: 10%;
+top: 5%;
 left:40% ;}
 
 .container2 p
 {font-family:'raleway',sans-serif;
-font-size: 14px;
+font-size: 12px;
 display: flex;
 position: absolute;
-top: 35%;
+top: 25%;
 left:43% ;}
 
 .etoiles2
@@ -296,12 +287,12 @@ left: 45%;}
 /*Activités Marseille*/
 
 .images3
-{width: 320px;
-height: 380px;
+{width: 280px;
+height: 400px;
 border-top-left-radius: 20px;
 border-top-right-radius: 20px ;
 margin-left: -40px;
-margin-top: -20px;}
+margin-top: -10px;}
 
 
 .container3
@@ -310,24 +301,23 @@ flex-direction: row;}
 
 .cards3
 {background-color:white;
-width:320px;
-height:444px;
+width:280px;
+height:450px;
 border-radius: 20px;
 box-shadow: 6px 6px 10px #F0F2F6;
-margin-right: 50px;}
+margin-right: 30px;}
 
 .titre-activité
 {font-family: 'raleway', sans-serif;
-font-size: 16px;
+font-size: 14px;
 font-weight: 700;
-margin:15px;
-
-margin-left:-10px;}
+margin-top: 5px;
+margin-left:-15px;}
 
 /*Footer*/
 
 .container4
-{width: 1410px;
+{width: 1200px;
 height: 225px;
 background-color:#F2F2F2;
 display: flex;
@@ -374,18 +364,23 @@ align-items: center;
 margin-top: 30px;}
 
 .liens
-{margin: 30px;
-margin-left: 40px;}
+{display: flex;
+flex-wrap: nowrap;
+justify-content: space-between;
+margin: 30px;
+}
 
 #activités
 {margin-left: 20px;}
 
+
+
 .trait-dessus
 {position: absolute;
+border:solid #0065FC;
 width: 230px;
-height:3px;
 left: 0px;
-top: 120px;}
+top: 140px;}
 
 h1{margin-left: 30px;
 width: 298px;}
@@ -472,12 +467,14 @@ height: 160px}
 .container2 h3
 {display: flex;
 position: absolute;
+font-size: 16px;
 top:10%;
 left:35%;}
 
 .container2 p
 {display: flex;
 position: absolute;
+font-size: 14px;
 top:20%;
 left:30%;}
 
@@ -501,7 +498,13 @@ padding-top: 60px}
 
 .container1 h2
 {margin-top: -30px;
-margin-left:15px}
+margin-left:15px;}
+
+.container1 h3
+{font-size: 16px;}
+
+.container1 p 
+{font-size: 14px;}
 
 .cards
 {border-radius: 20px;
@@ -667,8 +670,6 @@ margin-left: 10px;}
 
 /* Populaire*/
 
-h4 {font-size: 18px;}
-
 .container2
 {margin-top: 30px;
 height: 200px;
@@ -681,20 +682,20 @@ flex-direction: row;
 margin-left: 10px;}
 
 .container2 h4
-{margin-top:10px;
-margin-bottom:20px;}
+{font-size: 18px;
+margin-top:20px;
+margin-bottom:10px;}
 
 .cards2
 {width:196px;
 height:90px;
 margin: 10px;
-padding-top: 5px;
-padding-bottom: 5px;
-padding-left: 5px;}
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;}
 
 .images2
 {width: 70px;
-height: 90px;
+height: 80px;
 border-top-left-radius: 10px;
 border-bottom-left-radius: 10px;}
 
@@ -746,8 +747,7 @@ white-space:pre-wrap;}
 
 
 h5 
-{margin-left: 25px;
-margin-bottom: 10px;}
+{margin-bottom: 10px;}
 
 /*footer*/
 
