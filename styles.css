@@ -140,7 +140,14 @@ margin-top: 15px;}
 
 .fa-info
 {color: #0065FC;
-padding-right: 20px;}
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 2px;
+margin-right: 10px;
+border-radius: 30px;
+border:solid #F2F2F2 2px;
+height: 22px;
+width: 5px;}
 
 
 /*Hébergements à Marseille*/
@@ -205,7 +212,7 @@ margin-left: 10px;}
 
 .etoiles
 {color: #0065FC;
-margin-left: 5px;
+margin-left: 10px;
 margin-top: -10px;}
 
 .afficher 
@@ -286,13 +293,6 @@ border-top-right-radius: 20px ;
 margin-left: -40px;
 margin-top: -20px;}
 
-.titre-activité
-{font-family: 'raleway', sans-serif;
-font-size: 16px;
-font-weight: 700;
-display: flex;
-justify-content: left;
-margin-top: 20%;}
 
 .container3
 {display: flex;
@@ -307,7 +307,12 @@ box-shadow: 6px 6px 10px #F0F2F6;
 margin-right: 50px;}
 
 .titre-activité
-{margin:15px;}
+{font-family: 'raleway', sans-serif;
+font-size: 16px;
+font-weight: 700;
+margin:15px;
+
+margin-left: -10px;}
 
 /*Footer*/
 
