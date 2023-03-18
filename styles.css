@@ -11,14 +11,23 @@ padding-top: 25px;}
 {width:61px;
 height:19px}
 
-h1,h2,h4,h5
+h1
 {font-family: "raleway",sans-serif;
 font-size: 22px;
 font-weight: 700;
 color: black;}
 
-h1 
-{margin-top: 40px;}
+h2
+{font-family: "raleway",sans-serif;
+font-size: 18px;
+font-weight: 700;
+color: black;}
+
+h3
+{font-family: "raleway",sans-serif;
+font-size: 16px;
+font-weight: 700;
+color: black;}
 
 p
 {font-family: "raleway", sans-serif; 
@@ -101,14 +110,7 @@ padding-bottom:5px}
 {font-family: "raleway",sans serif;
 font-size: 18px;
 margin-top: -20px;
-font-weight:700;
-margin-left: -40px;}
-
-ul li:nth-child(1){border: none;}
-
-ul li:nth-child(1):hover{background-color: white;}
-
-.filtre h1 {margin-top: 10px;}
+font-weight:700;}
 
 .titre-filtre ul
 {display: flex;
@@ -167,7 +169,7 @@ margin-right: 20px;
 display: flex;
 flex-wrap: wrap;}
 
-.container1 h2
+.container1 h1
 {position: absolute;
 margin-left: 30px;
 margin-top: 30px;}
@@ -256,7 +258,7 @@ border-radius: 20px;
 justify-content: space-between;
 box-shadow: 6px 6px 10px #D7DEEA}
 
-.container2 h4
+.container2 h1
 {margin-left: 35px;}
 
 .container2 h3
@@ -287,6 +289,13 @@ left: 45%;}
 
 /*Activités Marseille*/
 
+.container3
+{display: flex;
+flex-direction: row;}
+
+.container3,h1
+{margin-top: 30px;}
+
 .images3
 {width: 280px;
 height: 400px;
@@ -295,11 +304,6 @@ border-top-left-radius: 20px;
 border-top-right-radius: 20px ;
 margin-left: -40px;
 margin-top: -10px;}
-
-
-.container3
-{display: flex;
-flex-direction: row;}
 
 .cards3
 {background-color:white;
@@ -341,11 +345,6 @@ font-size: 18px;
 font-weight: 700;
 margin-bottom: 15px;}
 
-.soustitre-foot
-{font-family: "raleway", sans-serif;
-font-size: 16px;
-font-weight: 400;
-margin-bottom: 10px;}
 
 /* Medias Queries Mobile*/
 
@@ -365,17 +364,18 @@ justify-content: center;
 align-items: center;
 margin-top: 30px;}
 
+p
+{margin: 30px;
+text-align:start;}
+
 .liens
 {display: flex;
 flex-wrap: nowrap;
 justify-content: space-between;
-margin: 30px;
-}
+margin: 30px;}
 
 #activités
 {margin-left: 20px;}
-
-
 
 .trait-dessus
 {position: absolute;
@@ -384,11 +384,10 @@ width: 230px;
 left: 0px;
 top: 140px;}
 
-h1{margin-left: 30px;
-width: 298px;}
-p
-{margin: 30px;
-text-align:start;}
+h1 
+{margin-left: 30px;}
+
+
 
 .fa-info{margin-left: 10px;}
 
@@ -417,14 +416,14 @@ align-content: center;}
 /*filtres*/
 
 .titre-filtre
-{margin-left: 30px;
+{margin-left: 40px;
 font-weight: 700;
-font-size: 18px;}
+font-size: 18px;
+margin-right: 30px;}
 
-.titre-filtre h1
-{margin-left: -10px;}
-
-ul li:nth-child(1){margin-right: 40%;}
+.titre-filtre h2 
+{margin-left: 20px;
+margin-right: 120%;}
 
 .titre-filtre ul
 {display: flex;
@@ -498,28 +497,29 @@ width: 100%;
 margin-left: 20px;
 padding-top: 60px}
 
-.container1 h2
+.container1 h1
 {margin-top: -30px;
 margin-left:15px;}
 
 .container1 h3
-{font-size: 16px;}
+{margin-top: 5px;
+font-size: 16px;}
 
-.container1 p 
+.container1 p
 {font-size: 14px;}
+
+.etoiles
+{margin-top:-25px;}
 
 .cards
 {border-radius: 20px;
 box-shadow: 4px 4px 10px#F0F2F6;
 width: 390px;
-height:220px;
-margin:10px;}
+height:210px;
+margin:10px 20px;}
 
 .images
 {width:380px;}
-
-.etoiles
-{margin-top:-15px;}
 
 .afficher{visibility: hidden;}
 
@@ -528,35 +528,31 @@ margin:10px;}
 .container3
 {display: flex;
 flex-direction: column;
-margin-left:20px;}
+margin-top: -20px;
+}
 
 .cards3
 {width: 390px;
 height: 220px;
-margin: 10px;
+margin: 10px 35px;
 box-shadow: 4px 4px 10px#F0F2F6;}
 
 .titre-activités
-{margin-left: 40px;
-margin-bottom: 20px;
+{margin-left:45px;
 margin-top:180%;}
 
 .images3
 {width: 380px;
 height:150px;
-margin-left:-30px;
-}
+margin-left:-30px;}
 
 .titre-activité 
-{margin-left: -10px;}
+{margin-left: -10px;
+margin-top: 20px;}
 
 /*footer*/
 
 footer{margin-top: 10%;}
-
-.bloc-foot
-{margin: 10px;
-margin-top: 40px;}
 
 .container4
 {width: 500px;
@@ -564,6 +560,13 @@ height: 560px;
 display: flex;
 flex-flow: column nowrap;
 margin:0px;}
+
+.bloc-foot
+{margin:30px;}
+
+.bloc-foot p
+{
+margin:10px 5px }
 }
 
 /* Medias Queries Tablette*/
@@ -586,31 +589,28 @@ padding-left: 5px;}
 
 h1 {margin-top:40px}
 
-
 .titre-filtre li 
-{margin:5px;
+{margin:10px;
 font-size: 10px;
 padding-right:10px;
 padding-left:5px;
 padding-top: 0px;
 padding-bottom: 0px;}
 
-ul li, .filtre:nth-child(1){margin-top: 15px;}
-
-ul li, .titre-filtre:nth-child(3)
-{width: 150px;
-padding-left:0px;}
-
-ul li, .titre-filtre:nth-child(5)
-{width: 180px;
-white-space: nowrap;}
+.titre-filtre p
+{padding-top: 5px;
+font-size: 14px;}
 
 .titre-filtre ul
 {margin-left:20px;
 margin-top: 40px;}
 
-.filtre h1
-{font-size:18px;}
+.titre-filtre li
+{height: 30px;}
+
+.titre-filtre h2
+{font-size:18px;
+margin-right: 30px;}
 
 .infos
 {margin-bottom: 30px;}
@@ -631,23 +631,17 @@ flex-wrap: wrap;}
 {display: flex;
 flex-wrap:wrap;
 width:990px;
-height:400px;
+height:300px;
 padding-top:80px;}
 
-.container1 h2
+.container1 h1
 {margin-top:-50px}
 
-h2{font-size: 18px;}
-
-.afficher{font-size: 16px;
-margin-top: -20px;}
-
 .cards
-{margin-top:90px;
+{margin-top:-10px;
 width:185px;
-height:130px;
-margin: 10px;
-margin-left: 25px;}
+height:115px;
+margin-left: 33px;}
 
 .images
 {width:176px;
@@ -667,8 +661,7 @@ font-size: 10px;}
 
 .etoiles
 {font-size:10px;
-margin-top:10px;
-margin-left: 10px;}
+margin-top:-10px;}
 
 /* Populaire*/
 
@@ -683,7 +676,7 @@ margin-left:0px;}
 flex-direction: row;
 margin-left: 10px;}
 
-.container2 h4
+.container2 h1
 {font-size: 18px;
 margin-top:20px;
 margin-bottom:10px;}
@@ -697,9 +690,12 @@ border-bottom-left-radius: 10px;}
 
 .images2
 {width: 70px;
-height: 80px;
+height: 84px;
 border-top-left-radius: 10px;
-border-bottom-left-radius: 10px;}
+border-bottom-left-radius: 10px;
+padding-top: 3px;
+padding-bottom:3px;
+padding-left: 3px;}
 
 .container2 h3
 {font-family: "Raleway", sans-serif;
@@ -726,19 +722,19 @@ font-size:10px;}
 /*Activités*/
 
 .container3
-{margin-left:-25px;}
+{margin: -10px -25px;}
 
 .images3
 {width: 140px;
 height: 145px;
+margin-top: -30px;
 padding-left:15px;
-padding-top: 5px;
 border-top-left-radius: 30px;}
 
 .cards3
 {background-color: white;
 width:155px;
-height: 200px;
+height: 170px;
 margin:10px}
 
 .titre-activité
@@ -747,9 +743,8 @@ margin-top: 5px;
 margin-left: -10px;
 white-space:pre-wrap;}
 
-
-h5 
-{margin-bottom: 10px;}
+.titre-activités
+{margin-bottom: 30px;}
 
 /*footer*/
 
@@ -760,12 +755,12 @@ height: 190px;}
 .titre-foot
 {font-size:14px;}
 
-.soustitre-foot
+.bloc-foot p
 {font-size: 13px;
 margin-top: 5px;}
 
 .bloc-foot
-{margin:0px;
+{margin:0px 20px;
 padding-top: 30px;}
 
 }
