@@ -1,6 +1,7 @@
 body
 {padding: 20px;}
 
+
 header
 {display:flex;
 justify-content:space-between;
@@ -159,8 +160,8 @@ width: 5px;}
 
 .container1
 {background-color: #F2F2F2;
-width: 990px;
-height: 626px;
+width:880px;
+height:626px;
 border-radius: 20px;
 margin-right: 20px;
 display: flex;
@@ -228,7 +229,7 @@ padding-top: 20px;}
 
 .container2
 {background-color: #F2F2F2;
-height: 630px;
+height: 626px;
 width: 450px;
 border-radius:20px;}
 
