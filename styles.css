@@ -11,17 +11,12 @@ padding-top: 25px;}
 {width:61px;
 height:19px}
 
-h1
+h1,h2
 {font-family: "raleway",sans-serif;
 font-size: 22px;
 font-weight: 700;
 color: black;}
 
-h2
-{font-family: "raleway",sans-serif;
-font-size: 18px;
-font-weight: 700;
-color: black;}
 
 h3
 {font-family: "raleway",sans-serif;
@@ -132,6 +127,12 @@ margin: 25px;}
 
 .titre-filtre li:hover{background-color: #DEEBFF;}
 
+.titre-filtre li:nth-child(1)
+{border:none}
+
+.titre-filtre li:nth-child(1):hover
+{background-color: transparent;}
+
 .icone-filtre{color:#0065FC;
 padding-right: 10px;
 padding-left: 10px;}
@@ -169,7 +170,7 @@ margin-right: 20px;
 display: flex;
 flex-wrap: wrap;}
 
-.container1 h1
+.container1 h2
 {position: absolute;
 margin-left: 30px;
 margin-top: 30px;}
@@ -258,7 +259,7 @@ border-radius: 20px;
 justify-content: space-between;
 box-shadow: 6px 6px 10px #D7DEEA}
 
-.container2 h1
+.container2 h2
 {margin-left: 35px;}
 
 .container2 h3
@@ -293,7 +294,7 @@ left: 45%;}
 {display: flex;
 flex-direction: row;}
 
-.container3,h1
+.container3 h2
 {margin-top: 30px;}
 
 .images3
@@ -384,10 +385,8 @@ width: 230px;
 left: 0px;
 top: 140px;}
 
-h1 
+h1
 {margin-left: 30px;}
-
-
 
 .fa-info{margin-left: 10px;}
 
@@ -421,10 +420,6 @@ font-weight: 700;
 font-size: 18px;
 margin-right: 30px;}
 
-.titre-filtre h2 
-{margin-left: 20px;
-margin-right: 120%;}
-
 .titre-filtre ul
 {display: flex;
 flex-flow:row wrap;
@@ -436,6 +431,9 @@ height: 50px;
 margin: 10px 10px 10px 10px;
 padding:5px 5px 5px 5px;}
 
+.titre-filtre li:nth-child(1)
+{margin-right: 60px;}
+
 .titre-filtre p
 {margin: 0px;
 text-align: center;}
@@ -446,7 +444,7 @@ text-align: center;}
 .hebergement-populaire 
 {flex-flow: column-reverse wrap;}
 
-.container2 h4
+.container2 h2
 {margin-left: 30px;}
 
 .container2
@@ -497,9 +495,9 @@ width: 100%;
 margin-left: 20px;
 padding-top: 60px}
 
-.container1 h1
+.container1 h2
 {margin-top: -30px;
-margin-left:15px;}
+margin-left:30px;}
 
 .container1 h3
 {margin-top: 5px;
@@ -528,8 +526,7 @@ margin:10px 20px;}
 .container3
 {display: flex;
 flex-direction: column;
-margin-top: -20px;
-}
+margin-top: -20px;}
 
 .cards3
 {width: 390px;
@@ -565,8 +562,7 @@ margin:0px;}
 {margin:30px;}
 
 .bloc-foot p
-{
-margin:10px 5px }
+{margin:10px 5px }
 }
 
 /* Medias Queries Tablette*/
@@ -599,18 +595,15 @@ padding-bottom: 0px;}
 
 .titre-filtre p
 {padding-top: 5px;
-font-size: 14px;}
+font-size: 15px;}
 
 .titre-filtre ul
 {margin-left:20px;
 margin-top: 40px;}
 
 .titre-filtre li
-{height: 30px;}
-
-.titre-filtre h2
-{font-size:18px;
-margin-right: 30px;}
+{height: 40px;
+font-size: 18px;}
 
 .infos
 {margin-bottom: 30px;}
@@ -634,8 +627,9 @@ width:990px;
 height:300px;
 padding-top:80px;}
 
-.container1 h1
-{margin-top:-50px}
+.container1 h2
+{margin-top:-50px;
+font-size:18px}
 
 .cards
 {margin-top:-10px;
@@ -676,7 +670,7 @@ margin-left:0px;}
 flex-direction: row;
 margin-left: 10px;}
 
-.container2 h1
+.container2 h2
 {font-size: 18px;
 margin-top:20px;
 margin-bottom:10px;}
@@ -744,7 +738,8 @@ margin-left: -10px;
 white-space:pre-wrap;}
 
 .titre-activités
-{margin-bottom: 30px;}
+{margin-bottom: 30px;
+font-size: 18px;}
 
 /*footer*/
 
