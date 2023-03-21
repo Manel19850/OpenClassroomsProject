@@ -1,6 +1,10 @@
+*
+{ box-sizing:border-box;}
+
 .dim-site
 {max-width: 1400px;
-margin: 0 auto;}
+margin:0 auto;}
+
 
 header
 {display:flex;
@@ -38,21 +42,14 @@ color: #000000;}
 
 /* Elements du header */
 
-.trait-dessus 
-{position: absolute;
-border:solid transparent;
-width:170px;
-left: 900px;
-top: 0px;}
-
-.trait-dessus:hover {border-color: #0065FC;}
-
 
 .liens
-{ color: black;
+{color: black;
 margin-left:60px;
 padding-right: 30px ;
-font-weight: 400px;}
+font-weight: 400px;
+border-top:solid transparent;
+border-color: #0065FC;}
 
 .liens:hover {color: #0065FC;}
 
