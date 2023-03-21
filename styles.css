@@ -1,6 +1,6 @@
 .dim-site
 {max-width: 1400px;
-margin: auto;}
+margin: 0 auto;}
 
 header
 {display:flex;
