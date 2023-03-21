@@ -1,3 +1,6 @@
+.dim-site
+{max-width: 1400px;
+margin: auto;}
 
 header
 {display:flex;
@@ -72,12 +75,10 @@ font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
 font-size: 18px;
-line-height: 21px;
+color: #000000;
 text-align: center;}
 
-input::placeholder
-{color: #000000;}
-    
+      
 #button
 {display: flex;
 flex-direction: row;
@@ -120,7 +121,8 @@ border-radius: 50px;
 border:2px solid #D9D9D9;
 padding-left: 10px;
 padding-right: 20px; 
-margin: 25px;}
+margin: 45px;
+margin-left: -5px;}
 
 .titre-filtre li:hover{background-color: #DEEBFF;}
 
@@ -237,7 +239,7 @@ border-radius:20px;}
 
 .fa-chart-line {color: #0065FC;
 float: right;
-margin-right:20px;}
+padding-right: 40px;}
 
 .images2
 {width: 137px;
@@ -344,6 +346,8 @@ list-style-type: none;}
 font-size: 18px;
 font-weight: 700;
 margin-bottom: 15px;}
+
+
 
 /* Medias Queries Mobile*/
 
