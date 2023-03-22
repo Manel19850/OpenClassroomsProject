@@ -9,31 +9,28 @@ img
 {max-width: 1400px;
 margin:0 auto;}
 
+body
+{font-family: "raleway",sans-serif;
+color: #000000;}
+
 #logo
 {width:61px;
 height:19px}
 
 h1,h2
-{font-family: "raleway",sans-serif;
-font-size: 22px;
-font-weight: 700;
-color: black;}
+{font-size: 22px;
+font-weight: 700;}
 
 h3
-{font-family: "raleway",sans-serif;
-font-size: 16px;
-font-weight: 700;
-color: black;}
+{font-size: 16px;
+font-weight: 700;}
 
 p
-{font-family: "raleway", sans-serif; 
-font-size: 16px;
-color: black;} 
+{font-size: 16px;} 
 
 a
-{font-family: "raleway", sans-serif;
+{color: #000000;
 font-size: 10;   
-color: #000000;
 text-decoration: none;}
 
 
@@ -54,11 +51,16 @@ padding-top: 35px;}
 #hebergements:hover
 {border-top: solid blue;}
 
- 
+h1
+{margin-top: 50px;
+margin-bottom: -10px;}
 
+ 
 /* Element de la barre de recherche */
 
-.recherche {display: inline-flex;}
+.recherche 
+{display: inline-flex;
+margin-top: 20px;}
 
 #icones
 {background: #F2F2F2;
@@ -68,12 +70,8 @@ border-radius: 15px 0px 0px 15px;}
 #recherche
 {background: #FFFFFF;
 border: 1px solid #F2F2F2;
-border-top: 15px ;
-padding-left: 50px;
-padding-right: 50px;
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
+padding:15px 25px;
+font-weight:700;
 font-size: 18px;
 color: #000000;
 text-align: center;}
@@ -84,24 +82,20 @@ text-align: center;}
 flex-direction: row;
 align-items: center;
 padding: 10px 10px 10px 10px;
-gap: 10px;
-font-style: normal;
-font-weight: 700;
 font-size: 18px;
-font-family: 'Raleway', sans-serif;
+font-weight: 700;
 text-align: center;
 color: #FFFFFF;
 background: #0065FC;
-border: 1px solid #0065FC;
+border: #0065FC;
 border-radius: 0px 15px 15px 0px;
-padding-top:5px;
-padding-bottom:5px}
+padding-top:10px;
+padding-bottom:10px}
 
 #loupe{display: none;}
 
 .titre-filtre
-{font-family: "raleway",sans serif;
-font-size: 18px;
+{font-size: 18px;
 margin-top: -20px;
 font-weight:700;}
 
@@ -114,9 +108,7 @@ padding: 0;}
 {display: flex;
 align-items: center;
 list-style-type: none;
-font-family: 'raleway',sans-serif;
 font-size: 17px;
-color: #000000;
 border-radius: 50px;
 border:2px solid #D9D9D9;
 padding-left: 10px;
@@ -133,13 +125,10 @@ margin-left: -5px;}
 {background-color: transparent;}
 
 .icone-filtre{color:#0065FC;
-padding-right: 10px;
-padding-left: 10px;}
+padding: 0px 10px 0px 10px}
 
 .infos
-{font-family: "raleway", sans-serif; 
-font-size: 16px;
-color: black;
+{font-size: 16px;
 margin-bottom: 30px;
 margin-top: 15px;}
 
@@ -147,9 +136,7 @@ margin-top: 15px;}
 {font-weight: 400;
 color: #0065FC;
 font-size: 16px;
-padding-left: 10px;
-padding-right: 15px;
-padding-top: 5px;
+padding:5px 15px 0px 10px;
 margin-right: 15px;
 border-radius: 30px;
 border:solid #F2F2F2 2px;
@@ -174,22 +161,20 @@ flex-wrap:wrap;}
 
 .container1 h2
 {position: absolute;
-margin-left: 30px;
-margin-top: 30px;}
+margin: 30px 0px 0px 30px}
 
 .cards
 {background-color: white;
 width: 246px;
-height: 199px;
+height: 189px;
 border-radius:20px;
 margin-top:80px;
 margin-left: 35px;
 box-shadow: 6px 6px 10px #D7DEEA;}
 
-
 .images
 {width: 245px;
-height: 124px;
+height: 114px;
 padding-top:5px;
 padding-left: 5px;
 padding-right: 5px;
@@ -198,15 +183,13 @@ border-top-right-radius: 20px;}
 
 
 .container1 h3
-{font-family: "Raleway", sans-serif;
-font-weight: 700;
+{font-weight: 700;
 font-size: 14px;
-margin-top:-2px;
+margin-top:8px;
 margin-left: 10px;}
 
 .container1 p
-{font-family:'raleway',sans-serif;
-font-size: 12px;
+{font-size: 12px;
 margin-top: -10px;
 margin-left: 10px;}
 
@@ -225,10 +208,8 @@ margin-left: 10px;
 margin-top: -10px;}
 
 
-
 .afficher 
-{font-family: "raleway",sans serif;
-font-size: 18px;
+{font-size: 18px;
 font-weight: 700;
 padding-left: 30px;
 padding-top: 20px;}
@@ -269,8 +250,7 @@ box-shadow: 6px 6px 10px #D7DEEA}
 margin-top: 30px;}
 
 .container2 h3
-{font-family: "Raleway", sans-serif;
-font-weight: 700;
+{font-weight: 700;
 font-size: 14px;
 margin-top:5px;
 margin-left: 10px;
@@ -280,8 +260,7 @@ top: 5%;
 left:40% ;}
 
 .container2 p
-{font-family:'raleway',sans-serif;
-font-size: 12px;
+{font-size: 12px;
 display: flex;
 position: absolute;
 top: 25%;
@@ -301,7 +280,6 @@ left: 45%;}
 flex-direction: row;}
 
 .titre-activités
-
 {margin-top: 50px;}
 
 .images3
@@ -321,8 +299,7 @@ box-shadow: 6px 6px 10px #F0F2F6;
 margin-right: 30px;}
 
 .titre-activité
-{font-family: 'raleway', sans-serif;
-font-size: 14px;
+{font-size: 14px;
 font-weight: 700;
 margin-top: 5px;
 margin-left:-15px;}
@@ -347,8 +324,7 @@ list-style-type: none;}
 {list-style-type: none;}
 
 .titre-foot
-{font-family: "raleway", sans-serif;
-font-size: 18px;
+{font-size: 18px;
 font-weight: 700;
 margin-bottom: 15px;}
 
@@ -381,7 +357,7 @@ nav
 .trait-nav 
 {border: solid blue;
 position: absolute;
-width: 480px;
+width: 300px;
 height:3px;
 left: 0px;
 top: 120px;}
