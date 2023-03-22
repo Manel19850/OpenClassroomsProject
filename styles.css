@@ -375,24 +375,25 @@ align-items: center;}
 #hebergements:hover
 {border-top: none;}
 
-.trait-nav
-{border:solid blue;
-width: 220px;
+nav 
+{margin: 30px;}
+
+.trait-nav 
+{border: solid blue;
 position: absolute;
-margin: 40px;
-margin-left: -95px;}
+width: 480px;
+height:3px;
+left: 0px;
+top: 120px;}
 
 p
 {margin: 30px;
 text-align:start;}
 
-.liens{margin: 40px;
-align-items:center ;}
-
 h1
 {margin-left: 30px;}
 
-.fa-info{margin-left: 10px;}
+.fa-info{margin-left: 5px;}
 
 
 
