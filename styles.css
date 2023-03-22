@@ -1,15 +1,14 @@
+
 *
 { box-sizing:border-box;}
+
+
+img
+{object-fit: cover;}
 
 .dim-site
 {max-width: 1400px;
 margin:0 auto;}
-
-
-header
-{display:flex;
-justify-content:space-between;
-padding-top: 25px;}
 
 #logo
 {width:61px;
@@ -36,22 +35,24 @@ color: black;}
 a
 {font-family: "raleway", sans-serif;
 font-size: 10;   
-justify-content: space-between;
-text-decoration: none;
 color: #000000;}
+
+
 
 /* Elements du header */
 
+header
+{display: flex;
+justify-content: space-between;}
 
-.liens
-{color: black;
-margin-left:60px;
-padding-right: 30px ;
-font-weight: 400px;
-border-top:solid transparent;
-border-color: #0065FC;}
+#hebergements, #activités
+{border-top: solid transparent;
+margin-right: 60px;
+text-decoration: none;}
 
-.liens:hover {color: #0065FC;}
+#hebergements:hover
+{border-top: solid blue;}
+ 
 
 /* Element de la barre de recherche */
 
@@ -162,7 +163,7 @@ width: 5px;}
 .container1
 {background-color: #F2F2F2;
 width:880px;
-height:626px;
+height:600px;
 border-radius: 20px;
 margin-right: 20px;
 display: flex;
@@ -182,10 +183,10 @@ margin-top: 30px;}
 .container1 .cards:nth-child(7)
 {margin-top:20px}
 
+
 .images
-{width: 215px;
+{width: 225px;
 height: 124px;
-object-fit:cover;
 padding-top:5px;
 padding-left: 5px;
 padding-right: 5px;
@@ -195,10 +196,10 @@ border-top-right-radius: 20px;}
 .cards
 {background-color: white;
 width: 225px;
-height: 200px;
+height: 190px;
 border-radius:20px;
-margin-top:100px;
-margin-left: 20px;
+margin-top:80px;
+margin-left: 35px;
 box-shadow: 6px 6px 10px #D7DEEA}
 
 .container1 h3
@@ -230,7 +231,7 @@ padding-top: 20px;}
 
 .container2
 {background-color: #F2F2F2;
-height: 626px;
+height: 600px;
 width: 450px;
 border-radius:20px;}
 
@@ -240,7 +241,7 @@ padding-right: 40px;}
 
 .images2
 {width: 137px;
-height: 140px;
+height: 135px;
 border-bottom-left-radius: 20px;
 border-top-left-radius: 20px;
 padding-top: 5px;
@@ -251,14 +252,15 @@ padding-left: 5px;}
 position: relative;
 background-color: white;
 width: 340px;
-height: 150px;
+height: 140px;
 margin: 30px;
 border-radius: 20px;
 justify-content: space-between;
 box-shadow: 6px 6px 10px #D7DEEA}
 
 .container2 h2
-{margin-left: 35px;}
+{margin-left: 35px;
+margin-top: 30px;}
 
 .container2 h3
 {font-family: "Raleway", sans-serif;
@@ -292,17 +294,17 @@ left: 45%;}
 {display: flex;
 flex-direction: row;}
 
-.container3 h2
-{margin-top: 30px;}
+.titre-activités
+
+{margin-top: 50px;}
 
 .images3
 {width: 280px;
 height: 400px;
-object-fit:cover;
 border-top-left-radius: 20px;
 border-top-right-radius: 20px ;
-margin-left: -40px;
-margin-top: -10px;}
+margin-top: -10px;
+margin-left: -40px;}
 
 .cards3
 {background-color:white;
@@ -356,6 +358,7 @@ body,header
 {margin:0px;
 padding: 0px;}
 
+
 header
 {width: 100%;
 display: flex;
@@ -364,30 +367,26 @@ justify-content: center;
 align-items: center;
 margin-top: 30px;}
 
+.trait-nav
+{border:solid blue;
+width: 220px;
+position: absolute;
+margin: 40px;
+margin-left: -95px;}
+
 p
 {margin: 30px;
 text-align:start;}
 
-.liens
-{display: flex;
-flex-wrap: nowrap;
-justify-content: space-between;
-margin: 30px;}
-
-#activités
-{margin-left: 20px;}
-
-.trait-dessus
-{position: absolute;
-border:solid #0065FC;
-width: 230px;
-left: 0px;
-top: 140px;}
+.liens{margin: 40px;
+align-items:center ;}
 
 h1
 {margin-left: 30px;}
 
 .fa-info{margin-left: 10px;}
+
+
 
 /* barre de recherche */
 
@@ -407,10 +406,6 @@ display: flex;
 align-content: center;
 padding:20px;}
 
-#recherche
-{width:50%;
-align-content: center;}
-
 /*filtres*/
 
 .titre-filtre-
@@ -422,16 +417,16 @@ margin-right: 30px;}
 .titre-filtre ul
 {display: flex;
 flex-flow:row wrap;
-margin-left: 10px;}
+margin-left: 25px;}
 
 .titre-filtre li
-{width: 40%;
+{width: 43%;
 height: 50px;
 margin: 10px 10px 10px 10px;
 padding:5px 5px 5px 5px;}
 
 .titre-filtre li:nth-child(1)
-{margin-right: 60px;}
+{margin-right: 70px;}
 
 .titre-filtre p
 {margin: 0px;
@@ -569,21 +564,13 @@ margin:0px;}
 @media screen and (min-width: 768px) and (max-width:991px)
 
 {
- body, header
-  {margin: 20px;
-margin-left:40px}
 
+body {margin:30px}
+
+h1 { margin-top: 40px;}
 
 /*Elements du Header*/
 
-#logo
-{margin-left: -20px;}
-
-.liens
-{margin-left: 80px;
-padding-left: 5px;}
-
-h1 {margin-top:40px}
 
 .titre-filtre li 
 {margin:10px;
@@ -624,7 +611,7 @@ flex-wrap: wrap;}
 {display: flex;
 flex-wrap:wrap;
 width:980px;
-height:300px;
+height:400px;
 padding-top:80px;}
 
 .container1 h2
@@ -638,7 +625,7 @@ height:115px;
 margin-left: 33px;}
 
 .images
-{width:176px;
+{width:186px;
 height:64px;
 object-fit:cover;
 border-bottom-left-radius: 0px;
