@@ -344,23 +344,35 @@ padding: 0px;}
 header
 {width: 100%;
 display: flex;
-flex-flow: column nowrap;
+flex-flow: column wrap;
 justify-content: center;
 align-items: center;}
 
 #hebergements:hover
 {border-top: none;}
 
-nav 
-{margin: 30px;}
+.liens
+{font-size: 20px;
+display:flex;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+margin-left: 50px;}
 
-.trait-nav 
-{border: solid blue;
-position: absolute;
-width: 300px;
-height:3px;
-left: 0px;
-top: 120px;}
+
+#hebergements, #activités
+{border-bottom: solid transparent;
+text-decoration: none;
+padding-bottom: 35px;}
+
+#hebergements:hover
+{color: #0065FC;
+border-bottom: solid blue;}
+
+#activités:hover 
+{color: blue ;
+border-bottom: solid grey;}
+
 
 p
 {margin: 30px;
@@ -433,14 +445,16 @@ height: 680px;
 margin-left: -5px;}
 
 .cards2
-{width: 425px;
+{box-shadow: 4px 4px 10px#919498;
+width: 430px;
 height: 170px;
 margin: 20px;
-margin-left: 30px;}
+margin-left: 35px;}
 
-.images2 { padding-left: 5px;
+.images2 
+{padding-left: 5px;
 padding-top: 5px;
-height: 160px}
+height: 164px}
 
 .container2 h3
 {display: flex;
@@ -490,13 +504,16 @@ font-size: 16px;}
 
 .cards
 {border-radius: 20px;
-box-shadow: 4px 4px 10px#F0F2F6;
-width: 390px;
-height:210px;
-margin:10px 20px;}
+box-shadow: 4px 4px 10px#919498;
+width: 430px;
+height:200px;
+margin:15px 0px 0px 10px;}
 
 .images
-{width:380px;}
+{width:430px;
+padding-top: 5px;
+padding-left: 5px;
+padding-right: 5px;}
 
 .afficher{visibility: hidden;}
 
@@ -508,19 +525,20 @@ flex-direction: column;
 margin-top: -20px;}
 
 .cards3
-{width: 390px;
+{width: 430px;
 height: 220px;
-margin: 10px 35px;
-box-shadow: 4px 4px 10px#F0F2F6;}
+margin: 10px 30px;
+box-shadow: 4px 4px 10px#919498;;}
 
 .titre-activités
 {margin-left:45px;
-margin-top:180%;}
+margin-top:165%;
+margin-bottom: 40px;}
 
 .images3
-{width: 380px;
-height:150px;
-margin-left:-30px;}
+{width: 430px;
+height:156px;
+margin-top:-20px}
 
 .titre-activité 
 {margin-left: -10px;
@@ -656,7 +674,7 @@ border-bottom-left-radius: 10px;}
 
 .images2
 {width: 70px;
-height: 84px;
+height: 90px;
 border-top-left-radius: 10px;
 border-bottom-left-radius: 10px;
 padding-top: 3px;
