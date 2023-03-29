@@ -465,21 +465,21 @@ padding-top: 5px;}
 {display: flex;
 position: absolute;
 font-size: 16px;
-left:32%;}
+margin-left: -5px;}
 
 .container2 p
 {display: flex;
 position: absolute;
 font-size: 14px;
-top:10px;
-left:28%;}
+margin-top:10px;
+margin-left: -5px;}
 
 .etoiles2
 {color: #0065FC;
 display: flex;
 position: absolute;
 bottom: 10%;
-left: 34%;}
+margin-left: -5px;}
 
 /* section hébergements*/
 
@@ -487,7 +487,8 @@ left: 34%;}
 {background: white;
 display: flex;
 flex-wrap: wrap;
-padding-top: 60px}
+padding-top: 60px;
+width: 100%;}
 
 .container1 h2
 { margin-top:-30px;
@@ -531,7 +532,7 @@ margin-top: -20px;}
 height: 195px;
 margin: 10px 45px;
 box-shadow: 4px 4px 10px#919498;
-margin:29px auto;}
+margin:19px auto;}
 
 .titre-activités
 {margin-left:45px;
