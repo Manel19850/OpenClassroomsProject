@@ -162,26 +162,27 @@ width: 30px;}
 border-radius: 20px;
 width: 930px;
 background-color:#F2F2F2;
-padding-left:70px;
 display: flex;
 flex-wrap: wrap;}
 
 .container1 h2
 {padding-top:20px;
 margin-bottom:-15px;
+margin-left: 35px;
 width: 100%;}
 
 .cards
 {background-color: white;
-width: 220px;
+width: 240px;
 height: 185px;
 border-radius:20px;
 box-shadow: 6px 6px 10px #D7DEEA;
-margin-right: 50px;
+margin-left: 35px;
+margin-right: 20px;
 padding-top: 10px;}
 
 .images
-{width: 220px;
+{width: 240px;
 height: 114px;
 padding-top:5px;
 padding-left: 5px;
@@ -202,7 +203,6 @@ margin-top: -10px;
 margin-left: 10px;}
 
 
-
 .etoiles
 {color: #0065FC;
 margin-left: 10px;
@@ -211,6 +211,7 @@ margin-top: -10px;}
 .afficher 
 {font-size: 18px;
 font-weight: 700;
+margin-left: 35px;
 padding-right:75%}
 
 /*Populaires*/
