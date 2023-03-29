@@ -465,23 +465,21 @@ padding-top: 5px;}
 {display: flex;
 position: absolute;
 font-size: 16px;
-top:10%;
-left:38%;
-right: 10px;}
+left:32%;}
 
 .container2 p
 {display: flex;
 position: absolute;
 font-size: 14px;
-top:20%;
-left:33%;}
+top:10px;
+left:28%;}
 
 .etoiles2
 {color: #0065FC;
 display: flex;
 position: absolute;
 bottom: 10%;
-left: 42%;}
+left: 34%;}
 
 /* section hébergements*/
 
@@ -677,7 +675,8 @@ flex-direction: row;}
 .container2 h2
 {font-size: 18px;
 margin-top:20px;
-margin-bottom:10px;}
+margin-bottom:10px;
+margin-left: 5px;}
 
 .cards2
 {width:196px;
@@ -723,26 +722,25 @@ font-size:10px;}
 {margin: -10px;}
 
 .images3
-{width: 155px;
-height: 165px;
-margin-top: -30px;
+{width: 100%;
+height: 145px;
 border-top-left-radius: 20px;
 border-top-right-radius: 20px;}
 
 .cards3
 {background-color:white;
-width:155px;
+width:145px;
 height: 185px;
-margin:10px}
+margin:17px}
 
-.titre-activité
+.container3 h3
 {font-size: 10px;
-margin-top: 5px;
-margin-left: -10px;
-white-space:pre-wrap;}
+margin-top: 10px;
+}
 
 .titre-activités
-{margin-bottom: 30px;
+{margin-bottom: 20px;
+margin-left:15px ;
 font-size: 18px;}
 
 /*footer*/
