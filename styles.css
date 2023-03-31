@@ -131,7 +131,8 @@ margin-left: -5px;}
 .titre-filtre li:hover{background-color: #DEEBFF;}
 
 .titre-filtre li:nth-child(1)
-{border:none}
+{border:none;
+font-size: 18px;}
 
 .titre-filtre li:nth-child(1):hover
 {background-color: transparent;}
@@ -418,10 +419,6 @@ padding:20px;}
 
 /*filtres*/
 
-.titre-filtre-
-{margin-left: 40px;
-font-weight: 700;
-font-size: 18px;}
 
 .titre-filtre ul
 {display: flex;
@@ -437,7 +434,8 @@ margin: 5px 5px 5px 5px;}
 {width:100%}
 
 .titre-filtre p
-{margin: 0px;}
+{margin: 0px;
+font-size: 12px;}
 
 
 /*section populaires*/
