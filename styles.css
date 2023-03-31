@@ -149,7 +149,7 @@ margin-top: 15px;}
 {font-weight: 400;
 color: #0065FC;
 font-size: 16px;
-padding:5px 10px 15px 10px;
+padding:5px 5px 5px 10px;
 margin-right: 4px;
 border-radius: 30px;
 border:solid #F2F2F2 2px;
@@ -162,7 +162,7 @@ width: 30px;}
 {display: flex;}
 
 .container1
-{margin-right: 20px;
+{margin-right: 40px;
 border-radius: 20px;
 width: 930px;
 background-color:#F2F2F2;
@@ -171,7 +171,7 @@ flex-wrap: wrap;}
 
 .container1 h2
 {padding-top:20px;
-margin-bottom:-15px;
+margin-bottom:-30px;
 margin-left: 35px;
 width: 100%;}
 
@@ -181,7 +181,7 @@ width: 240px;
 height: 195px;
 border-radius:20px;
 box-shadow: 6px 6px 10px #D7DEEA;
-margin-left: 35px;
+margin-left: 33px;
 margin-right: 20px;
 padding-top: 10px;
 }
@@ -200,17 +200,17 @@ border-top-right-radius: 20px;}
 {font-weight: 700;
 font-size: 14px;
 margin-top:5px;
-margin-left: 10px;}
+margin-left: 20px;}
 
 .container1 p
 {font-size: 12px;
 margin-top: -5px;
-margin-left: 10px;}
+margin-left: 20px;}
 
 
 .etoiles
 {color: #0065FC;
-margin-left: 10px;
+margin-left: 20px;
 margin-top: -5px;}
 
 .afficher 
@@ -225,7 +225,8 @@ padding-right:75%}
 {width: 480px;
 background-color: #F2F2F2;
 border-radius:20px;
-padding-left: 20px;}
+padding-left: 5px;
+padding-bottom: 10px;}
 
 .fa-chart-line {color: #0065FC;
 float: right;
@@ -238,12 +239,12 @@ margin-top: 30px;}
 
 .container2 h3
 {line-height: 1;
-margin-left: 10px;
+margin-left: 20px;
 margin-bottom: -5px;
 }
 
 .container2 p
-{margin-left: 10px;}
+{margin-left: 20px;}
 
 
 .images2
@@ -267,9 +268,8 @@ position: relative;}
 .etoiles2
 {color: #0065FC;
 margin-left: 10px;
-
 position: absolute;
-bottom: 10px;}
+bottom: 15px;}
 
 
 
@@ -298,9 +298,8 @@ box-shadow: 6px 6px 10px #F0F2F6;
 margin-right: 30px;}
 
 .container3 h3
-{
-margin-top: 10px;
-margin-left:15px;}
+{margin-top: 10px;
+margin-left:20px;}
 
 /*Footer*/
 
@@ -387,7 +386,8 @@ p
 text-align:start;}
 
 h1
-{margin-left: 30px;}
+{margin-left: 30px;
+width: 100%;}
 
 .fa-info{margin-left: 15px;}
 
@@ -455,7 +455,7 @@ width:100%;}
 .cards2
 {width:90%;
 height:160px;
-margin-left: 10px;}
+margin-left: 14px;}
 
 .images2 
 {height: 155px;
@@ -482,12 +482,12 @@ margin-bottom: 20px;}
 
 .container1 h3
 {margin-top: 5px;
-font-size: 16px;}
+font-size: 16px;
+margin-bottom: 9px;}
 
 .container1 p
 {font-size: 14px;
 margin-bottom: 10px;}
-
 
 
 .cards
@@ -528,16 +528,16 @@ margin-bottom: 40px;}
 height:156px;
 margin-top:-20px}
 
-.titre-activité 
-{margin-left: -10px;
-margin-top: 20px;}
+.container3 h3
+
+{margin-top: 15px;}
 
 /*footer*/
 
 footer{margin-top: 10%;}
 
 .container4
-{width: 500px;
+{width: 100%;
 height: 560px;
 display: flex;
 flex-flow: column nowrap;
@@ -555,8 +555,7 @@ margin:0px;}
 @media screen and (min-width: 768px) and (max-width:992px)
 {
 
-body { margin-left: 40px;
-margin-right: 20px}
+body { margin-left: 55px;}
 
 h1 { margin-top: 40px;}
 
@@ -602,76 +601,81 @@ flex-wrap: wrap;}
 {display: flex;
 flex-wrap:wrap;
 width: 100%;
-height: 430px;
+height: 460px;
 padding-top:80px;
 padding-left: 30px;}
 
 .container1 h2
-{margin-top:-55px;
+{margin-top:-75px;
 padding-bottom: 0px;
-font-size:18px;}
+font-size:18px;
+margin-left: 15px;}
 
 .cards
-{width:185px;
-height:135px;
+{width:180px;
+height:155px;
+margin-top: -30px;
 margin-left: 10px;
-margin-right: 10px;}
+margin-right: 10px;
+margin-bottom: 40px;}
 
 .images
-{width:186px;
-height:64px;
+{width:180px;
+height:90px;
 object-fit:cover;
 border-bottom-left-radius: 0px;
 border-bottom-right-radius: 0px;}
 
 .container1 h3
-{font-family: "Raleway", sans-serif;
-margin-top: 5px;
+{ margin-top: 5px;
 font-weight: 700;
-font-size: 12px;}
+font-size: 12px;
+margin-bottom: 7px;
+margin-left:10px}
 
-.container1 p
-{font-family:'raleway',sans-serif;
-font-size: 10px;}
+.container1 p 
+{font-size: 10px;
+margin-left:10px}
 
 .etoiles
 {font-size:10px;
-margin-top: 10px;}
+margin-left:10px}
 
 .afficher
 {font-size: 16px;
 font-weight: 700;
-margin-top: 10px;
+margin-top: -30px;
 margin-left: 20px;}
 
 /* Populaire*/
 
 .container2
 {margin-top: 30px;
-width: 100%;
+width: 95%;
 height: 240px;
 margin-right: 30px;
-padding-right: 10px ;}
+padding-left: 10px ;}
 
 .container-flex2
 {display: flex;
-flex-direction: row;}
+flex-direction: row;
+margin: 10px;}
 
 .container2 h2
 {font-size: 18px;
 margin-top:20px;
 margin-bottom:10px;
-margin-left: 5px;}
+margin-left: 25px;}
 
 .cards2
-{width:196px;
+{width:190px;
 height:120px;
 margin: 10px;
 border-top-left-radius: 10px;
 border-bottom-left-radius: 10px;}
 
 .images2
-{width: 70px;
+{width: 90px;
 height: 120px;
 border-top-left-radius: 10px;
 border-bottom-left-radius: 10px;
@@ -681,15 +685,19 @@ padding-left: 3px;}
 
 .container2 h3
 {font-weight: 700;
-font-size: 12px;}
+font-size: 12px;
+margin-bottom: 10px;
+margin-left: 10px;}
 
 .container2 p
 {font-size: 10px;
-margin-bottom: 40px;}
+margin-left: 10px;}
 
 .etoiles2
 {margin-top:15px;
-font-size:10px;}
+font-size:10px;
+position: absolute;
+bottom: 5px;}
 
 /*Activités*/
 
@@ -700,13 +708,13 @@ font-size:10px;}
 {width: 100%;
 height: 145px;
 border-top-left-radius: 20px;
-border-top-right-radius: 20px;}
+border-top-right-radius: 15px;}
 
 .cards3
 {background-color:white;
 width:145px;
 height: 185px;
-margin:17px}
+margin:13px}
 
 .container3 h3
 {font-size: 10px;
@@ -721,7 +729,7 @@ font-size: 18px;}
 /*footer*/
 
 .container4
-{width: 690px;
+{width: 680px;
 height: 190px;
 margin-left: -5px;}
 
