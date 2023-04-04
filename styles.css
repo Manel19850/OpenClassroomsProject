@@ -31,7 +31,7 @@ p
 
 a
 {color: #000000;
-font-size: 10;   
+font-size: 10px;   
 text-decoration: none;}
 
 .last-star
@@ -556,7 +556,7 @@ margin:0px;}
 
 /* Medias Queries Tablette*/
 
-@media screen and (min-width: 768px) and (max-width:992px)
+@media screen and (min-width: 768px) and (max-width:1400px)
 {
 
 body { margin-left: 55px;}
@@ -707,7 +707,8 @@ bottom: 10px;}
 /*Activités*/
 
 .bloc-activité
-{margin: -10px;}
+{margin: -10px;
+width: 100%;}
 
 .image-activité
 {width: 100%;
@@ -717,9 +718,8 @@ border-top-right-radius: 15px;}
 
 .carte-activité
 {background-color:white;
-width:145px;
-height: 185px;
-margin:13px}
+width:100%;
+height: 185px;}
 
 .bloc-activité h3
 {font-size: 10px;
@@ -727,13 +727,12 @@ margin-top: 10px;}
 
 .titre-activités
 {margin-bottom: 20px;
-margin-left:15px ;
 font-size: 18px;}
 
 /*footer*/
 
 .bloc-footer
-{width: 680px;
+{width: 100%;
 height: 190px;
 margin-left: -5px;}
 
