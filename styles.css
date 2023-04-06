@@ -62,7 +62,10 @@ color: #0065FC;}
 
 #activités:hover
 {border-top: solid blue;
-color: blue}
+color: blue;}
+
+#hebergements , #activités
+{font-size: 16px;}
 
 
 /* Element de la barre de recherche */
@@ -199,22 +202,23 @@ margin-top: -10px;
 border-top-left-radius: 20px;
 border-top-right-radius: 20px;}
 
-.bloc-hebergment h3
+.carte-hebergement h3
 {font-weight: 700;
-font-size: 14px;
-margin-top:5px;
+font-size: 16px;
+margin: 5px;
 margin-left: 20px;}
 
-.bloc-hebergment p
-{font-size: 12px;
-margin-top: -5px;
+.carte-hebergement p
+{font-size: 14px;
+margin-top: 5px;
 margin-left: 20px;}
 
 
 .etoile-hebergement
 {color: #0065FC;
 margin-left: 20px;
-margin-top: -5px;}
+margin-top: -5px;
+font-size: 12px;}
 
 .afficher 
 {font-size: 18px;
@@ -240,13 +244,15 @@ padding-right: 40px;}
 {margin-left: 35px;
 margin-top: 30px;}
 
-.bloc-populaire h3
+.carte-populaire h3
 {line-height: 1;
 margin-left: 20px;
-margin-bottom: -5px;}
+margin-bottom: -5px;
+font-size: 16px;}
 
-.bloc-populaire p
-{margin-left: 20px;}
+.carte-populaire p
+{margin-left: 20px;
+font-size: 14px;}
 
 
 .image-populaire
@@ -269,9 +275,10 @@ position: relative;}
 
 .etoile-populaire
 {color: #0065FC;
-margin-left: 10px;
+margin-left: 20px;
 position: absolute;
-bottom: 15px;}
+bottom: 15px;
+font-size: 12px;}
 
 
 /*Activités Marseille*/
