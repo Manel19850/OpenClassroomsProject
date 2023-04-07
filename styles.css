@@ -334,7 +334,7 @@ margin-bottom: 15px;}
 
 /* Medias Queries Mobile*/
 
-@media screen and (max-width:767px)
+@media screen and  (max-width:767px)
 
 {
  body 
@@ -739,7 +739,7 @@ font-size: 18px;}
 /*footer*/
 
 .bloc-footer
-{width: 100%;
+{width: 95%;
 height: 190px;
 margin-left: -5px;}
 
